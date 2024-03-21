@@ -1,0 +1,57 @@
+.container_geral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container_texto {
+    width: 60%;
+    text-align: center;
+    line-height: 30px;
+    margin: 25px 0px;
+}
+.subtitulo{  
+    font-size: 1.7em;
+    margin: 50px 0px 35px;
+}
+.paragrafo{
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.container_cards{
+    display: flex;
+    width: 1024px;
+    height: 630px;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 25px 10px 0px;
+    justify-content: center;
+    margin: 0px 0px 35px;
+}
+
+.card{
+    width: 345px;
+    max-width: 350px;
+    height: 254px;
+    display: flex;
+    flex-wrap:rap;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.card:hover{
+    box-shadow: 1px 0px 12px 0px #00000063;
+}
+.titulo_card{
+    color: #020202;
+    margin: 0px 0px 15px;
+}
+.paragrafo{
+    margin: 18px 0px 0px;
+    font-size: 18px;
+}
+.img_oculos{
+    width: 70%;
+    height: 100px;
+}
