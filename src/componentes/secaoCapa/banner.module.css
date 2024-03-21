@@ -1,0 +1,31 @@
+.banner{
+    width: 100%;
+    height: 94vh;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+.containerTitulo{
+    width: 50%;
+    max-width: 500px;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.div{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.paragrafo, .titulo{
+    color: #fff;
+}
+.paragrafo{
+    font-size: 1.5em;
+}
+.titulo{
+    font-size: 3em;
+    text-transform: uppercase;
+}
