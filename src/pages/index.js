@@ -2,6 +2,7 @@ import Head from "next/head";
 import Topo from '@/componentes/topo/';
 import Banner from '@/componentes/secaoCapa/';
 import Produtos from '@/componentes/secaoProdutos/produtos';
+import SobreNos from "@/componentes/sobreNos";
 
 
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Topo/>
       <Banner/>
       <Produtos/>
+      <SobreNos/>
      </main>
     </>
   );

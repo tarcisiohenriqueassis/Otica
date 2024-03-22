@@ -18,29 +18,42 @@ export  default function Produtos(){
 
 <article className={estilos.container_cards}>
 
-<div className={estilos.card}>
-<h3 className={estilos.titulo_card}>Óculos de grau</h3>
- <Image className={estilos.img_oculos} src={Oculos1} alt='Oculos'/>
- <p className={estilos.paragrafo}>R$ 500,00</p>
-</div>
-<div className={estilos.card}>
-<h3 className={estilos.titulo_card}>Óculos de grau</h3>
- <Image className={estilos.img_oculos} src={Oculos2} alt='Oculos'/>
- <p className={estilos.paragrafo}>R$ 500,00</p>
-</div>
+    <div className={estilos.card}>
+    <h3 className={estilos.titulo_card}>Óculos de grau</h3>
+    <Image className={estilos.img_oculos} src={Oculos1} alt='Oculos'/>
+     <p className={estilos.paragrafo}>R$ 500,00</p>
+    </div>
 
-<div className={estilos.card}>
-<h3 className={estilos.titulo_card}>Óculos de grau</h3>
-  <Image className={estilos.img_oculos} src={Oculos3} alt='Oculos'/>
- <p className={estilos.paragrafo}>R$ 500,00</p>
-</div>
 
-<div className={estilos.card}>
-<h3 className={estilos.titulo_card}>Óculos de grau</h3>
- <Image className={estilos.img_oculos} src={Oculos4} alt='Oculos'/>
- <p className={estilos.paragrafo}>R$ 500,00</p>
-</div>
+    <div className={estilos.card}>
+    <h3 className={estilos.titulo_card}>Óculos de grau</h3>
+     <Image className={estilos.img_oculos} src={Oculos2} alt='Oculos'/>
+     <p className={estilos.paragrafo}>R$ 700,00</p>
+    </div>
 
+
+    <div className={estilos.card}>
+    <h3 className={estilos.titulo_card}>Óculos de grau</h3>
+      <Image className={estilos.img_oculos} src={Oculos3} alt='Oculos'/>
+     <p className={estilos.paragrafo}>R$ 750,00</p>
+    </div>
+
+
+    <div className={estilos.card}>
+    <h3 className={estilos.titulo_card}>Óculos de grau</h3>
+      <Image className={estilos.img_oculos} src={Oculos4} alt='Oculos'/>
+     <p className={estilos.paragrafo}>R$ 500,00</p>
+    </div>
+
+</article>
+<article className={estilos.container_descricao_produtos}>
+    <p className={estilos.paragrafo_descricao_produtos}> Todos os nossos produtos incluem:</p>
+    <ul className={estilos.ul}>
+        <li>Garantia de 1 ano</li>
+        <li>Manutenção preventiva</li>
+        <li>Descontos especiais na compra da segunda unidade</li>
+        <li>Flexibilidade de pagamento</li>
+    </ul>
 </article>
 </section>
     )
