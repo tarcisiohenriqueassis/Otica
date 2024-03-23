@@ -1,3 +1,4 @@
+/*container Pai*/
 .container_global{
     display: flex;
     width: 100%;
@@ -8,6 +9,7 @@
     align-items: center;
     flex-direction: column;
 }
+/* começa a parte dos textos do topo*/
 .container_texto_quem_somos{
     width: 70%;
     margin: 0px 0px 25px;
@@ -21,13 +23,14 @@
     line-height: 25px;
     padding: 0px 0px 15px 0px;
 }
+/* Começa a parte das imagens*/
 .container_limitar_tamanho_container_imagens{
     display: flex;
     width: 75%;
     flex-wrap: wrap;
     justify-content: center;
 }
-
+/*Container dos textos e imagens do card*/
 .container_textos, .container_imagens{
     display: flex;
     width: 50%;
@@ -38,6 +41,7 @@
     border: 2px solid rgb(128 128 128 / 28%);
     border-radius: 5px;
 }
+/*Tiulo e subtitulo do card das imagens*/
 .subtitulo{
     font-size: 2em;
     padding: 0px 0px 15px;
@@ -46,6 +50,7 @@
 .paragrafo{
     font-size: medium;
 }
+/*imagens do cards */
 .imagens{
     width: 100%;
     height: 100%;
