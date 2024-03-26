@@ -1,0 +1,119 @@
+.container_global{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #05031b;
+    margin: 60px 0px 12px;
+    padding: 0px 0px 15px;
+    color: #ffff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 30px;
+}
+.container_texto_topo_pagina h4{
+    text-transform: uppercase;
+    font-size: 1.7em;
+    padding: 10px 0px 20px;
+}
+.container_texto_topo_pagina p{
+    width: 70%;
+    font-size: 17px;
+    margin: auto;
+}
+.container_redes_sociais{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:30px 0px 20px;
+}
+.container_redes_sociais nav{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px 35px 10px;
+}
+.container_redes_sociais nav a{
+    display: flex;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 18px;
+    padding: 0px 0px 0px 20px;
+    align-items: center;
+}
+/* secao de before dos links contatos*/
+.link_contatos_localizacao::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100%;
+    background-image: url(../../../public/local.png);
+    background-repeat: no-repeat;
+    position: relative;
+    left: -6px;
+}
+.link_contatos_telefone::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-size:68% 100%;
+    background-image: url(../../../public/telefone.png);
+    background-repeat: no-repeat;
+    position:relative;
+    left: -6px;
+}
+.link_contatos_email::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100%;
+    background-image: url(../../../public/email.png);
+    background-repeat: no-repeat;
+    position:relative;
+    left: -6px;
+}
+/*secao houver links contatos*/
+.link_contatos_email:hover,.link_contatos_telefone:hover,.link_contatos_localizacao:hover{
+    color: #adaaaade;
+}
+/*secao before redes sociais*/
+.link_redes_sociais_facebook::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100%;
+    background-image: url(../../../public/fb.png);
+    background-repeat: no-repeat;
+    position: relative;
+    left: -6px;
+}
+.link_redes_sociais_instagram::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100%;
+    background-image: url(../../../public/ig.png);
+    background-repeat: no-repeat;
+    position:relative;
+    left: -6px;
+}
+.link_redes_sociais_twitter::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-size: 100% 100%;
+    background-image: url(../../../public/tt.png);
+    background-repeat: no-repeat;
+    position: relative;
+    left: -6px;
+}
+/*secao houver links redes socias*/
+.link_redes_sociais_instagram:hover,.link_redes_sociais_twitter:hover,.link_redes_sociais_facebook:hover{
+    color: #adaaaade;
+}
+@media(max-width:769px){
+   .container_global{ width: 95%;
+}
+}

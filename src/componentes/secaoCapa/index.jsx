@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Banner(){
     return(
-        <section className={estilos.container}>
+        <section className={estilos.container_global}>
         <Image className={estilos.banner} src={banner} alt='Banner'/>
         <div className={estilos.containerTitulo}>
             <div className={estilos.div}>

@@ -26,21 +26,21 @@ export  default function Produtos(){
 
 
     <div className={estilos.card}>
-    <h3 className={estilos.titulo_card}>Óculos de grau</h3>
+    <h3 className={estilos.titulo_card}>Óculos transition</h3>
      <Image className={estilos.img_oculos} src={Oculos2} alt='Oculos'/>
      <p className={estilos.paragrafo}>R$ 700,00</p>
     </div>
 
 
     <div className={estilos.card}>
-    <h3 className={estilos.titulo_card}>Óculos de grau</h3>
+    <h3 className={estilos.titulo_card}>Óculos de sol</h3>
       <Image className={estilos.img_oculos} src={Oculos3} alt='Oculos'/>
      <p className={estilos.paragrafo}>R$ 750,00</p>
     </div>
 
 
     <div className={estilos.card}>
-    <h3 className={estilos.titulo_card}>Óculos de grau</h3>
+    <h3 className={estilos.titulo_card}>Óculos infantil</h3>
       <Image className={estilos.img_oculos} src={Oculos4} alt='Oculos'/>
      <p className={estilos.paragrafo}>R$ 500,00</p>
     </div>

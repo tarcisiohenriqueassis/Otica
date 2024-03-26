@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function Topo(){
     return(
-        <header className={estilos.container}>
+        <header className={estilos.container_global}>
             <Image className={estilos.img_logo} src={Logo} alt='Logo Otica'/>
             <nav className={estilos.nav}>
                 <Link className={estilos.link} href="#">Produtos</Link>

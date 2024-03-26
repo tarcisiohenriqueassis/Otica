@@ -17,6 +17,7 @@
 .subtitulo_quem_somos{
     font-size: 1.7em;
     padding: 15px 0px;
+    text-transform: uppercase;
 }
 .paragrafo_quem_somos{
     font-size: 17px;
