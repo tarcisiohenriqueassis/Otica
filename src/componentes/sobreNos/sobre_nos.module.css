@@ -57,3 +57,23 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media(max-width:375px){ 
+
+    .container_limitar_tamanho_container_imagens{
+        width: 95%;
+        gap: 10px;
+    }
+    .container_textos, .container_imagens{
+        width: 100%;
+    }
+}
+@media(max-width:657px){
+    .container_limitar_tamanho_container_imagens{
+        width: 95%;
+        gap: 10px;
+    }
+    .container_textos, .container_imagens{
+        width: 100%;
+    }
+}

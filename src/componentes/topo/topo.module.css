@@ -37,6 +37,9 @@
     transition: 500ms;
 }
 @media(max-width:769px){
+   
+}
+@media(max-width:475px){
     .container_global{
         flex-direction: column;
         gap: 10px;

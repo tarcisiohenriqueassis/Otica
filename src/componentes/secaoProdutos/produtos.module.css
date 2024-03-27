@@ -75,3 +75,9 @@
         width: 100%;
     }
 }
+@media(max-width:376){
+   
+    .card{
+        width: 100%;
+    }
+}
